@@ -27,7 +27,7 @@ DNS switch between multiple providers
     Open json file `./src/settings.json` and set your DNS configuration.
     
     Example:
-    ```json
+    ```jsonc
     {
         "servers": [
             {
