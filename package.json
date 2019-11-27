@@ -1,7 +1,7 @@
 {
   "name": "dns-proxy",
   "version": "1.0.0",
-  "author": "MrRemus",
+  "author": "MrRemus <remi.marguerit@gmail.com>",
   "description": "Remus DNS optimization between multiple providers",
   "scripts": {
     "start": "node src/dns-server.js",
@@ -14,5 +14,16 @@
     "express": "~4.17.1",
     "body-parser": "~1.19.0",
     "node-window": "~1.0.1"
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PotRemus/dns-proxy.git"
+  },
+  "keywords": [
+    "dns proxy",
+    "local server dns",
+    "multiple dns providers",
+    "node.js"
+  ]
 }
