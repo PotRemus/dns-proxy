@@ -7,14 +7,21 @@ DNS switch between multiple providers
 
     Node: [installation guide](https://nodejs.org/en/)
 
-2.  **Install dependencies**
+2.  **Clone git project**
+
+    ```sh
+    # run command in your working directory
+    git clone https://github.com/PotRemus/dns-proxy.git
+    ```
+
+3.  **Install dependencies**
 
     ```sh
     # install the dependencies
     npm install
     ```
 
-3.  **Set DNS configuration**
+4.  **Set DNS configuration**
 
     Open json file `./src/settings.json` and set your DNS configuration.
     
@@ -36,14 +43,14 @@ DNS switch between multiple providers
     }
     ```
 
-4.  **Start developing**
+5.  **Start developing**
 
     ```sh
     # "start": "node src/dns-server.js"
     npm start
     ```
 
-5.  **Configure your DNS network adapter**
+6.  **Configure your DNS network adapter**
 
     Set the DNS server for your network adapter with a local IP address (127.0.0.1)
 
