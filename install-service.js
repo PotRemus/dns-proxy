@@ -3,7 +3,7 @@ var path = require('path');
 
 // Create a new service object
 var svc = new Service({
-  name: 'Dns Proxy V1',
+  name: 'Dns Proxy',
   description: 'Remus DNS optimization between multiple providers',
   script: path.join(__dirname, 'src', 'dns-server.js'),
   nodeOptions: [

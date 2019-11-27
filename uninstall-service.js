@@ -3,7 +3,7 @@ var path = require('path');
 
 // Create a new service object
 var svc = new Service({
-    name: 'Dns Proxy V1',
+    name: 'Dns Proxy',
     script: path.resolve(__dirname, 'src', 'dns-server.js')
 });
 
