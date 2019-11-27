@@ -77,4 +77,5 @@ DNS switch between multiple providers
 
 ## Links
 Proxy Dns: https://peteris.rocks/blog/dns-proxy-server-in-node-js-with-ui/
+
 node-windows: https://github.com/coreybutler/node-windows
