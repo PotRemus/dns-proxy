@@ -56,7 +56,7 @@ DNS switch between multiple providers
     Set the DNS server for your network adapter with a local IP address (127.0.0.1)
 
 ## Install service
-    It's only tested with windows service system, if you need more information for the other system you could find documentation in node-windows guide (https://github.com/coreybutler/node-windows)
+It's only tested with windows service system, if you need more information for the other system you could find documentation in [node-windows guide](https://github.com/coreybutler/node-windows)
 
 1.  **Link node-windows**
     ```sh
