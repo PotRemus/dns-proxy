@@ -18,3 +18,8 @@ DNS switch between multiple providers
 
 ## Uninstall service
 `npm run uninstall-service`
+
+## Source
+Proxy Dns: https://peteris.rocks/blog/dns-proxy-server-in-node-js-with-ui/
+
+node-windows: https://github.com/coreybutler/node-windows
