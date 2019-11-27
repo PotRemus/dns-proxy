@@ -12,6 +12,7 @@ DNS switch between multiple providers
     ```sh
     # run command in your working directory
     git clone https://github.com/PotRemus/dns-proxy.git
+    cd dns-proxy
     ```
 
 3.  **Install dependencies**
