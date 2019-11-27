@@ -1,13 +1,13 @@
 {
   "name": "dns-proxy",
-  "version": "0.1.0",
-  "description": "",
+  "version": "1.0.0",
+  "author": "MrRemus",
+  "description": "Remus DNS optimization between multiple providers",
   "scripts": {
-    "server": "node src/dns-server.js",
+    "start": "node src/dns-server.js",
     "install-service": "node install-service.js",
     "uninstall-service": "node uninstall-service.js"
   },
-  "author": "MrRemus",
   "dependencies": {
     "native-dns": "~0.7.0",
     "async": "~3.1.0",
