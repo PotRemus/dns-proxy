@@ -5,8 +5,8 @@
   "description": "Remus DNS optimization between multiple providers",
   "scripts": {
     "start": "node src/dns-server.js",
-    "install-service": "node install-service.js",
-    "uninstall-service": "node uninstall-service.js"
+    "install-service": "node src/service-installer.js -i",
+    "uninstall-service": "node src/service-installer.js -u"
   },
   "dependencies": {
     "native-dns": "^0.7.0",
