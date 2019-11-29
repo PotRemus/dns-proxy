@@ -9,11 +9,11 @@
     "uninstall-service": "node uninstall-service.js"
   },
   "dependencies": {
-    "native-dns": "~0.7.0",
-    "async": "~3.1.0",
-    "express": "~4.17.1",
-    "body-parser": "~1.19.0",
-    "node-window": "~1.0.1"
+    "native-dns": "^0.7.0",
+    "async": "^3.1.0",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "node-window": "^1.0.1"
   },
   "license": "MIT",
   "repository": {
@@ -21,9 +21,10 @@
     "url": "https://github.com/PotRemus/dns-proxy.git"
   },
   "keywords": [
-    "dns proxy",
-    "local server dns",
-    "multiple dns providers",
-    "node.js"
+    "dns",
+    "proxy",
+    "service",
+    "javascript",
+    "node"
   ]
 }
